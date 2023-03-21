@@ -47,7 +47,7 @@ class SaveReminderViewModelTest {
     @Test
     fun validateEnteredData_EmptyTitleAndUpdateSnackBar() {
         val reminder = ReminderDataItem(
-            "Groceries",
+            "",
             "Get to the Shop",
             "Target",
             31.5,
@@ -63,7 +63,7 @@ class SaveReminderViewModelTest {
         val reminder = ReminderDataItem(
             "Groceries",
             "Get to the Shop",
-            "Target",
+            "",
             31.5,
             29.5
         )
